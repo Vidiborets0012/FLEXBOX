@@ -9,25 +9,42 @@
   <body>
     <div class="wrapper">
       <h1 class="visually-hidden">Flexbox</h1>
-      <div class="block block-indent">
-        <h2 class="block__title">базовий блок</h2>
-        <div class="block__row">
-          <div class="block__column">
-            <div class="block__item">1</div>
+      <section class="section">
+        <h2 class="section__title">властивості flex-контейнера</h2>
+        <div class="block block-indent">
+          <h3 class="block__title">базовий блок</h3>
+          <div class="block__row">
+            <div class="block__column">
+              <div class="block__item">1</div>
+            </div>
+            <div class="block__column">
+              <div class="block__item">2</div>
+            </div>
+            <div class="block__column">
+              <div class="block__item">3</div>
+            </div>
           </div>
-          <div class="block__column">
-            <div class="block__item">2</div>
-          </div>
-          <div class="block__column">
-            <div class="block__item">3</div>
+          <div class="block__descr">
+            <span class="block__descr-container">FLEX-контейнер</span>
+            <span class="block__descr-element">FLEX-елемент</span>
+            <span class="block__descr-content">Вміст FLEX-елемента</span>
           </div>
         </div>
-        <div class="block__descr">
-          <span class="block__descr-container">FLEX-контейнер</span>
-          <span class="block__descr-element">FLEX-елемент</span>
-          <span class="block__descr-content">Вміст FLEX-елемента</span>
+        <div class="block block-indent">
+          <h3 class="block__title">display: flex</h3>
+          <div class="block__row row-block__flex">
+            <div class="block__column">
+              <div class="block__item">1</div>
+            </div>
+            <div class="block__column">
+              <div class="block__item">2</div>
+            </div>
+            <div class="block__column">
+              <div class="block__item">3</div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   </body>
 </html>
