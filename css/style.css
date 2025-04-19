@@ -239,15 +239,22 @@ body {
   order: 5;
 }
 
-/* ***** властивість flax-basis */
-.flax-basis--auto {
+/* ***** властивість flax-basis, flex-graw, flex-shrink */
+.flex-basis--auto {
   flex-basis: auto;
 }
 
-.flax-basis--px {
+.flex-basis--px {
   flex-basis: 400px;
 }
 
-.flax-basis--percentage {
+.flex-basis--percentage {
   flex-basis: 15%;
+}
+
+.flex-shrink--0 {
+  flex-shrink: 0;
+}
+.flex-graw--1 {
+  flex-grow: 1;
 }
