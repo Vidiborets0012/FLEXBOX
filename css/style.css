@@ -219,22 +219,35 @@ body {
 
 /* ***** властивість align-self */
 
-.align-self--order-1 {
+.order-1 {
   order: 1;
 }
 
-.align-self--order-2 {
+.order-2 {
   order: 2;
 }
 
-.align-self--order-3 {
+.order-3 {
   order: 3;
 }
 
-.align-self--order-4 {
+.order-4 {
   order: 4;
 }
 
-.align-self--order-5 {
+.order-5 {
   order: 5;
+}
+
+/* ***** властивість flax-basis */
+.flax-basis--auto {
+  flex-basis: auto;
+}
+
+.flax-basis--px {
+  flex-basis: 400px;
+}
+
+.flax-basis--percentage {
+  flex-basis: 15%;
 }
