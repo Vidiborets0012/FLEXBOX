@@ -258,3 +258,21 @@ body {
 .flex-graw--1 {
   flex-grow: 1;
 }
+
+/* ***** властивість flex-direction */
+
+.flex-direction--row {
+  flex-direction: row;
+}
+
+.flex-direction--row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-direction--column {
+  flex-direction: column;
+}
+
+.flex-direction--column-reverse {
+  flex-direction: column-reverse;
+}
