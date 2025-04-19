@@ -157,3 +157,24 @@ body {
 .justify-content--space-evenly {
   justify-content: space-evenly;
 }
+
+/* ***** властивість align-items */
+.block__item-center {
+  text-align: center;
+}
+
+.align-items--stretch {
+  align-items: stretch;
+}
+
+.align-items--start {
+  align-items: start;
+}
+
+.align-items--end {
+  align-items: end;
+}
+
+.align-items--center {
+  align-items: center;
+}
