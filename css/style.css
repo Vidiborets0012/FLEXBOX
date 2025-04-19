@@ -199,6 +199,8 @@ body {
 /* ************************************** */
 /* ***** властивості flex-елементів */
 
+/* ***** властивість align-self */
+
 .align-self--flex-start {
   align-self: flex-start;
 }
@@ -213,4 +215,26 @@ body {
 
 .align-self--center {
   align-self: center;
+}
+
+/* ***** властивість align-self */
+
+.align-self--order-1 {
+  order: 1;
+}
+
+.align-self--order-2 {
+  order: 2;
+}
+
+.align-self--order-3 {
+  order: 3;
+}
+
+.align-self--order-4 {
+  order: 4;
+}
+
+.align-self--order-5 {
+  order: 5;
 }
