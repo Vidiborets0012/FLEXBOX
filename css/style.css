@@ -122,8 +122,38 @@ body {
 }
 
 /* ************************************** */
-/* ***** flex */
+/* ***** властивості flex-контейнера */
 
 .row-block__flex {
   display: flex;
+}
+
+.row-block__inline-flex {
+  display: inline-flex;
+}
+
+/* ***** властивість justify-content */
+
+.justify-content--start {
+  justify-content: start;
+}
+
+.justify-content--end {
+  justify-content: end;
+}
+
+.justify-content--center {
+  justify-content: center;
+}
+
+.justify-content--space-around {
+  justify-content: space-around;
+}
+
+.justify-content--space-between {
+  justify-content: space-between;
+}
+
+.justify-content--space-evenly {
+  justify-content: space-evenly;
 }
