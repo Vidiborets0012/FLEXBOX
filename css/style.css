@@ -178,3 +178,20 @@ body {
 .align-items--center {
   align-items: center;
 }
+
+/* ***** властивість wrap*/
+.block__item-width {
+  width: 500px;
+}
+
+.flex-wrap--nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap--wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap--wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
