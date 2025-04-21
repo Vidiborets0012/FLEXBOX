@@ -3,6 +3,7 @@
   --element-color: #5e5373;
   --content-color: #18b5a4;
   --color-light: #fff;
+  --color-dark: #000;
 }
 
 html {
@@ -46,6 +47,22 @@ ul {
   overflow: hidden;
   min-height: 100%;
   padding: 50px;
+}
+
+.wrapper__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  max-width: 360px;
+  min-height: 80px;
+  font-size: 24px;
+  background-color: var(--content-color);
+  border: 1px solid var(--color-dark);
+}
+
+a {
+  color: inherit;
 }
 
 .section:not(:last-child) {
