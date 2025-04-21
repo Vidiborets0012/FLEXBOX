@@ -44,6 +44,10 @@ h3 {
   color: inherit;
 }
 
+a {
+  text-decoration: none;
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -225,6 +229,82 @@ body {
 
 .item__text p:not(:last-child) {
   margin-bottom: 25px;
+}
+
+.content-3 {
+  padding: 50px 0;
+}
+
+.content-3__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content-3__body {
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.content-3__inner {
+  display: flex;
+  margin: 0 -22.5px;
+}
+
+.content-3__items {
+  display: flex;
+  flex: 0 1 33.333%;
+  padding: 0 22.5px;
+}
+
+.content-3__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-gray);
+  padding-bottom: 20px;
+  border-radius: 5px;
+  color: var(--color-light);
+  background-color: var(--color-gray);
+}
+
+.content-3__item-title {
+  padding: 12px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content-3__item-subtitle {
+  padding: 15px 0;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-gray);
+  background-color: var(--color-light);
+}
+
+.content-3__item-text {
+  flex: 1 1 auto;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-light);
+}
+
+.content-3__item-text p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.content-3__item-btn {
+  display: block;
+  height: 40px;
+  margin: 0 20px;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+
+  color: var(--color-gray);
+  background-color: var(--color-light);
+  border-radius: 5px;
 }
 
 .footer {
